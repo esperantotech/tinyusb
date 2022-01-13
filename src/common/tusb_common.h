@@ -23,6 +23,7 @@
  *
  * This file is part of the TinyUSB stack.
  */
+#pragma GCC diagnostic ignored "-Wconversion"
 
 #ifndef _TUSB_COMMON_H_
 #define _TUSB_COMMON_H_

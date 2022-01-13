@@ -24,6 +24,8 @@
  * This file is part of the TinyUSB stack.
  */
 
+#pragma GCC diagnostic ignored "-Wconversion"
+
 #ifndef _TUSB_OSAL_FREERTOS_H_
 #define _TUSB_OSAL_FREERTOS_H_
 

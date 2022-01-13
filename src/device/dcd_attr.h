@@ -190,11 +190,15 @@
   #define DCD_ATTR_ENDPOINT_MAX   4
 
 //------------- Broadcom -------------//
-#elif TU_CHECK_MCU(OPT_MCU_BCM2711, OPT_MCU_BCM2835, OPT_MCU_BCM2837)
+#elif TU_CHECK_MCU(OPT_MCU_BCM2711)
   #define DCD_ATTR_ENDPOINT_MAX   8
 
 //------------- Broadcom -------------//
 #elif TU_CHECK_MCU(OPT_MCU_XMC4000)
+  #define DCD_ATTR_ENDPOINT_MAX   8
+
+//------------- Esperanto -------------//
+#elif TU_CHECK_MCU(OPT_MCU_ET_SOC)
   #define DCD_ATTR_ENDPOINT_MAX   8
 
 #else

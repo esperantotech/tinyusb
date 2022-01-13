@@ -132,11 +132,12 @@
 
 // Broadcom
 #define OPT_MCU_BCM2711          1700 ///< Broadcom BCM2711
-#define OPT_MCU_BCM2835          1701 ///< Broadcom BCM2835
-#define OPT_MCU_BCM2837          1702 ///< Broadcom BCM2837
 
 // Infineon
 #define OPT_MCU_XMC4000          1800 ///< Infineon XMC4000
+
+// Esperanto
+#define OPT_MCU_ET_SOC           1900 ///< ET-SOC 1
 
 // Helper to check if configured MCU is one of listed
 // Apply _TU_CHECK_MCU with || as separator to list of input

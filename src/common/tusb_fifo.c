@@ -24,6 +24,8 @@
  *
  * This file is part of the TinyUSB stack.
  */
+#pragma GCC diagnostic ignored "-Wconversion"
+#pragma GCC diagnostic ignored "-Wsign-conversion"
 
 #include "osal/osal.h"
 #include "tusb_fifo.h"

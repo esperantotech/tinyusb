@@ -23,7 +23,7 @@
  *
  * This file is part of the TinyUSB stack.
  */
-
+#pragma GCC diagnostic ignored "-Wconversion"
 #include "tusb_option.h"
 
 #if TUSB_OPT_DEVICE_ENABLED
